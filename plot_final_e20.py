@@ -37,10 +37,10 @@ def parse_log(file_name):
     return rounds, sim, loss, accu
 
 
-f = plt.figure(figsize=[23, 10])
+f = plt.figure(figsize=[69, 30])
 
-log = ["synthetic_1_1", "mnist", "femnist", "shakespeare", "sent140_772user"]
-titles = ["Synthetic", "MNIST", "FEMNIST", "Shakespeare", "Sent140"]
+log = ["mnist"]
+titles = ["MNIST"]
 rounds = [200, 100, 200, 40, 800]
 mus=[1, 1, 1, 0.001, 0.01]
 drop_rates=[0, 0.5, 0.9]
